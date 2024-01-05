@@ -12,7 +12,7 @@ If you didn't configure a collectes folder before, follow these steps:
 1. Add these lines in your configuration.yaml :
 
 > #waste_collection: <BR>
-> &nbsp;&nbsp;waste_collection_schedule: !include_dir_named waste_collection_schedule/collectes
+> &nbsp;&nbsp;waste_collection_schedule: !include_dir_named custom_components/waste_collection_schedule/collectes
 
 2. Create the "collectes" folder in /config/custom_components/waste_collection_schedule" folder in Home Assistant.
 3. Download or copy the collectes_ouest.yaml or collectes_est.yaml file in your /config/custom_components/waste_collection_schedule/collectes folder.
