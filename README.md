@@ -20,5 +20,9 @@ If you didn't configure a collectes folder before, follow these steps:
 
 ## Create sensor
 
+Add sensor.yaml to your configuration.yaml under sensor.
+This will create three sensors for each type of collect
+
+![sensor_collectes](https://github.com/Khayrisill/hacs_waste_collection_static_source_chambly_QC/assets/93455595/9fb5f835-77bf-43c6-aebf-009f83385af3)
 
 
