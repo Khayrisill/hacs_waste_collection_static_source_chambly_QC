@@ -1,0 +1,45 @@
+# Collectes et dépots secteur Ouest pour l'année 2024
+sources:
+    - name: static
+      calendar_title: Recyclage
+      args:
+        type: Recyclage
+        frequency: WEEKLY
+        interval: 2
+        start: '2024-01-02'
+        until: '2024-12-31'
+        excludes: # Add exception for the recurrence
+        dates: # Manually define dates that are not part of the recurrence
+    - name: static
+      calendar_title: Ordures ménagères
+      args:
+        type: Ordures ménagères
+        frequency: WEEKLY
+        interval: 2
+        start: '2024-01-02'
+        until: '2024-12-31'
+        excludes: # Add exception for the recurrence
+        dates: # Manually define dates that are not part of the recurrence
+    - name: static
+      calendar_title: Matières organiques
+      args:
+        type: Matières organiques
+        frequency: WEEKLY
+        interval: 1
+        start: '2024-01-11'
+        until: '2024-12-31'
+        excludes: # Add exception for the recurrence
+          - '2024-01-18'
+          - '2024-02-01'
+          - '2024-02-15'
+          - '2024-02-29'
+          - '2024-03-14'
+          - '2024-03-28'
+          - '2024-04-11'
+          - '2024-04-25'
+          - '2024-10-24'
+          - '2024-11-07'
+          - '2024-11-21'
+          - '2024-12-05'
+          - '2024-12-19'
+        dates: # Manually define dates that are not part of the recurrence
