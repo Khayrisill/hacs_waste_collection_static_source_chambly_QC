@@ -7,7 +7,7 @@ You need to install HACS Waste Collection to your Home Assistant, please follow 
 
 Copy the collectes_ouest.yaml and/or collectes_est.yaml depending on your location in the city, to your collectes folder.
 
-If you didn't configure a collectes file before, follow these steps:
+If you didn't configure a collectes folder before, follow these steps:
 
 1. Add these lines in your configuration.yaml :
 
