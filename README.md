@@ -18,5 +18,7 @@ If you didn't configure a collectes folder before, follow these steps:
 3. Download or copy the collectes_ouest.yaml or collectes_est.yaml file in your /config/custom_components/waste_collection_schedule/collectes folder.
 4. Reboot HA
 
-## Creat sensor
+## Create sensor
+
+
 
